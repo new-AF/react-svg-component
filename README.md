@@ -2,7 +2,7 @@
 
 v1.3
 
-![screenshot image of an <SVG/> component in action on by blog](./svg%202.png)
+![screenshot image of an <SVG/> component in action on by blog](./svg%203.png)
 
 Easily load SVG files during runtime, and by default their `fill` will match the current color of context.
 
