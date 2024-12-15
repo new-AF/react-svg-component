@@ -8,6 +8,14 @@ Easily load SVG files during runtime, and by default their `fill` will match the
 
 (Matching `stroke` is also supported)
 
+# Table of contents
+
+-   [Limitations](#limitations)
+-   [Usage example](#usage-example)
+-   [Mandatory Props](#mandatory-props)
+-   [Optional Props](#optional-props)
+-   [Backstory](#backstory)
+
 ## Limitations
 
 Due to the async nature of reading the SVG files during runtime, there is a noticeable lag between when the time the browser first loads the page and the subsequent separate loading of the SVG file.
@@ -18,7 +26,7 @@ Due to the async nature of reading the SVG files during runtime, there is a noti
 <SVG path="/sun-solid.svg" />
 ```
 
-## Mandatory Props:
+## Mandatory Props
 
 | **Prop name** | **expected type** | **description**                   |
 | ------------- | ----------------- | --------------------------------- |
